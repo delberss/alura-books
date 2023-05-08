@@ -1,4 +1,7 @@
 import Header from './componentes/Header';
+import Search from './componentes/Search';
+import Lancamentos from './componentes/Lancamentos';
+
 import styled from 'styled-components';
 
 const AppContainer = styled.div`
@@ -11,6 +14,8 @@ function App() {
   return (
     <AppContainer>
       <Header />
+      <Search />
+      <Lancamentos />
     </AppContainer>
   );
 }
